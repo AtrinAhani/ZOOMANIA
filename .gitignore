@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Test output and local screenshots
+test-results/
+playwright-report/
+preview/
+scripts/tmp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (never commit secrets)
+.env
+.env.*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Note: docs/ (the built website) is committed on purpose so it can be opened
+# locally and served by GitHub Pages.
